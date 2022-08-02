@@ -1,3 +1,6 @@
+"""First steps with OOP"""
+
+
 class Container:
     def __init__(self, name: str, volume: int, current_volume: int, pour_out: int = 100) -> None:
         self.__name = name
@@ -32,4 +35,6 @@ def main() -> None:
         glass.info()
         i += 1
         glass.pour_liquid(jug.pour_out_liquid())
+
+
 main()

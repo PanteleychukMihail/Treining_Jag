@@ -1,3 +1,5 @@
+""" First steps with inheritance in OOP"""
+
 class Container:
     name: str = 'name'
     _volume: int = 0
